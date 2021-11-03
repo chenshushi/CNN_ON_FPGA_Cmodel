@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../cfg/cfg.hpp
+string
+-
+stdlib.h
+-
+
+../../src/common.hpp
+string
+-
+
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/main.cpp
+stdio.h
+-
+common.hpp
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/common.hpp
+cfg.hpp
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/cfg.hpp
+cstring
+-
+
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/src/common.cpp
+common.hpp
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/src/common.hpp
+
+/mnt/e/GIT/GIT_CODE/CNN_ON_FPGA_Cmodel/src/common.hpp
+string
+-
+
